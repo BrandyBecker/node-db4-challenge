@@ -1,6 +1,6 @@
 const express = require("express");
 const helmet = require("helmet");
-const RecipeRouter = require('./data/recipes/recipes-router')
+const RecipeRouter = require('./routers/RecipeRouter')
 const server = express();
 
 server.use(helmet());
